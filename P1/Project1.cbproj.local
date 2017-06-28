@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017.06.28 09:53:48.865,=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017.06.28 09:54:05.140,=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017.06.28 09:56:36.527,C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\P1\main.h=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2017.06.28 09:56:36.527,C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\P1\main.cpp=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017.06.28 09:56:36.527,C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\P1\main.dfm=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017.06.28 09:56:38.839,C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\P1\Project1PCH1.h=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017.06.28 09:56:39.758,C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\P1\Project1.cbproj=C:\Users\Marcin\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

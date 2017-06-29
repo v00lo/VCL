@@ -38,7 +38,6 @@ __published:	// IDE-managed Components
 	TAction *Exit;
 	TMenuItem *Exit1;
 	TAction *Help;
-	TToolButton *btnFullScreen;
 	TOpenPictureDialog *OpenPictureDialog1;
 	TImage *Image1;
 	TAction *View;
@@ -46,11 +45,18 @@ __published:	// IDE-managed Components
 	TMenuItem *View1;
 	TMenuItem *FullScreen1;
 	TSavePictureDialog *SavePictureDialog1;
-	TToolButton *ToolButton2;
-	TToolButton *btnCut;
+	TAction *Copy;
+	TAction *Cut;
+	TAction *New;
+	TAction *Crop;
+	TToolButton *btnFullScreen;
 	TToolButton *btnCopy;
-	TImage *Image2;
-	TToolButton *btnNewCanvas;
+	TToolButton *btnCut;
+	TToolButton *btnCrop;
+	TToolButton *btnRotateLeft;
+	TAction *RotateLeft;
+	TAction *RotateRight;
+	TToolButton *ToolButton1;
 	void __fastcall FormDestroy(TObject *Sender);
 	void __fastcall Exit1Click(TObject *Sender);
 	void __fastcall ExitExecute(TObject *Sender);
@@ -64,17 +70,22 @@ __published:	// IDE-managed Components
 	void __fastcall Image1MouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
           int X, int Y);
 	void __fastcall Image1MouseMove(TObject *Sender, TShiftState Shift, int X, int Y);
-	void __fastcall btnCutClick(TObject *Sender);
-	void __fastcall btnCopyClick(TObject *Sender);
-	void __fastcall btnNewCanvasClick(TObject *Sender);
+	void __fastcall CopyExecute(TObject *Sender);
+	void __fastcall CutExecute(TObject *Sender);
+	void __fastcall CropExecute(TObject *Sender);
+	void __fastcall RotateLeftExecute(TObject *Sender);
+	void __fastcall RotateRightExecute(TObject *Sender);
+
 
 private:	// User declarations
 	TJPEGImage *JPEGImage1;
-	TBitmap *BitmapImage1;
+	TBitmap *Bitmap1;
+    TBitmap *Bitmap2;
 	TRect lastRect;
 	TPoint mousePos;
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
+void __fastcall DrawCustom(TImage *image, TGraphic *bitmap);
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm1 *Form1;
